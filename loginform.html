@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <title>Login form</title>
+</head>
+    <style>
+    body{
+        background-image:url(filtercoffee.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:453px;
+    }
+    .class1{
+        box-sizing:border-box;
+        background-color:black;
+        border:2px solid black;
+        margin-top:180px;
+        margin-left:550px;
+        width:230px;
+        height:290px;
+    }
+    img{
+        position:absolute;
+        width:80px;
+        border:1px solid black;
+        border-radius:50px;
+        margin-left:625px;
+        margin-top:-50px;
+        
+    }
+    form h3{
+        color:white;
+        text-align:center;
+       
+        margin-top:40px;
+    }
+    .class4{
+        color:silver;
+        font-size:10px;
+        margin-left:20px;
+        
+    }
+    input[type="text"]{
+        color:silver;
+        background-color:black;
+        border:2px solid black;
+        border-bottom:2px solid silver;
+        outline:none;
+        
+    }
+    input[type="password"]{
+        color:silver;
+        background-color:black;
+        border:2px solid black;
+        border-bottom:2px solid silver;
+        outline:none;
+        
+    }
+   
+    #id1{
+        color:white;
+    }
+    .class2{
+        margin-left:20px;
+        margin-bottom:10px;
+    }
+    input[type="submit"]{
+        border:1px solid red;
+        width:178px;
+        height:30px;
+        margin-left:20px;
+        border-radius:20px;
+        color:white;
+        background-color:red;
+        margin-top:10px;
+        margin-bottom:10px;
+
+  }
+  input[type="submit"]:hover{
+       background-color:chartreuse;
+  }
+    </style>
+<body>
+    <img src="https://thumbs.dreamstime.com/b/avatar-red-icon-white-background-flat-style-vector-illustration-171176344.jpg" alt="error">
+    <div class="class1">
+        <form action="backend.php">
+            <h3>Login here</h3>
+            <div class="class2">
+                <label id="id1">Username</label>
+                <input type="text" placeholder="Enter Username">
+            </div>
+            <div class="class2">
+                <label id="id1">Password</label>
+                <input type="password"placeholder="Enter Password">
+            </div>
+            <div class="class3">
+                <input type="submit" value="Login">
+            </div>
+            <div class="class4">
+                Lost your password?
+             </div>   
+            <div class="class4">
+                Don't have an account?
+            </form>
+               
+        </form>
+    </div>
+</body>
+</html>
